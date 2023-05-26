@@ -30,7 +30,8 @@ html::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
 body{
-    background:#111;
+
+     background:#111;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -233,7 +234,8 @@ header .navbar ul li a:hover{
 .skills .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #fff;
 }
 .skills .box-container .box:hover img{
     transform: scale(0.8);
